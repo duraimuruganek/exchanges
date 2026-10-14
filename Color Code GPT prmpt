@@ -1,0 +1,222 @@
+# STRICT VISUAL DESIGN STANDARD — CRISP, GLOSSY CORPORATE TECHNICAL DIAGRAMS
+
+Create all architecture diagrams, UML sequence diagrams, technical workflows, reusable-component tables, and enterprise infographics using the following fixed visual standard. Treat these as mandatory design requirements, not suggestions.
+
+## 1. Overall visual direction
+
+- Style: premium enterprise architecture infographic.
+- Appearance: bright, crisp, glossy, clean, professional, presentation-ready.
+- Canvas: white or near-white background.
+- Primary colors: vivid corporate blue, bright green, clear orange, and clean red.
+- Use subtle gradients, glossy highlights, crisp borders, and soft shadows.
+- Use high-contrast dark navy text for readability.
+- Make diagrams look like professionally designed PowerPoint architecture slides.
+- Prioritize legibility, precise alignment, consistent spacing, and clear information hierarchy.
+
+## 2. Mandatory color palette — exact HEX codes
+
+### A. Primary corporate blue
+
+Use blue for titles, major headers, API gateways, request flows, and primary visual anchors.
+
+- Deep title blue: `#0756A5`
+- Header blue: `#0866B2`
+- Bright blue: `#1683F8`
+- Light blue fill: `#DCEEFF`
+- Very light blue background: `#F3F9FF`
+- Blue border: `#80BFFF`
+- Dark navy text: `#102A56`
+
+Title bars should use a glossy gradient from `#064A91` to `#147FE5`, with white bold text.
+
+### B. Bright green
+
+Use green for successful responses, shared utilities, middleware, completed processes, and positive outcomes.
+
+- Deep green: `#16803C`
+- Primary green: `#24B653`
+- Bright green highlight: `#69D987`
+- Light green fill: `#E0F8E7`
+- Very light green background: `#F4FFF6`
+- Green border: `#83D99B`
+- Dark green text: `#14532D`
+
+Use a subtle gradient from `#16803C` to `#43CC69` for green header accents and progress bars.
+
+### C. Clear orange
+
+Use orange for validation, issuer-side processing, warnings, and configuration-dependent actions.
+
+- Deep orange: `#C94B08`
+- Primary orange: `#FF791F`
+- Bright orange highlight: `#FFAD66`
+- Light orange fill: `#FFE8D1`
+- Very light orange background: `#FFF8F0`
+- Orange border: `#FFBC80`
+- Dark orange text: `#873500`
+
+Use a gradient from `#F76B16` to `#FFA04A` for orange accents.
+
+### D. Clear red
+
+Use red for Step Up flows, critical decision points, errors, or failure outcomes.
+
+- Deep red: `#B91C1C`
+- Primary red: `#EF4444`
+- Bright red highlight: `#FF7777`
+- Light red fill: `#FFE2E2`
+- Very light red background: `#FFF5F5`
+- Red border: `#FF9B9B`
+- Dark red text: `#7F1D1D`
+
+Use red sparingly. It must indicate a meaningful process category or failure, not merely decoration.
+
+### E. Neutral colors
+
+- Pure white: `#FFFFFF`
+- Canvas white: `#FCFDFF`
+- Light grey-blue: `#EAF0F7`
+- Divider grey: `#CCD8E5`
+- Secondary text: `#52657D`
+- Primary text: `#172B4D`
+- Dark text: `#10213A`
+
+## 3. Explicitly prohibited colors
+
+Do NOT use these as dominant colors, section backgrounds, title bars, or major component colors:
+
+- Teal: `#008080`
+- Turquoise: `#40E0D0`
+- Muted cyan: `#6CAFB5`
+- Violet: `#8F00FF`
+- Purple: `#800080`
+- Lavender: `#B19CD9`
+- Dusty purple or desaturated blue-purple
+- Muddy green, grey-green, dull olive, or washed-out pastel palettes
+
+Do not substitute teal or purple for the specified corporate blue or bright green.
+
+The design must look bright and distinct, not muted, washed out, or monochromatic.
+
+## 4. Glossy visual treatment
+
+Apply the following effects consistently but tastefully:
+
+- Use subtle vertical gradients in title bars and component headers.
+- Add a thin white highlight along the upper edge of important colored panels.
+- Use light inner highlights on glossy header cards.
+- Apply soft, low-opacity shadows beneath cards and title bars.
+- Use crisp 1–1.5 px colored borders.
+- Give panels gently rounded corners, approximately 5–9 px.
+- Use restrained blue, green, and orange progress bars with gradient fills.
+- Use very light tinted backgrounds inside grouped sections.
+- Keep the canvas white so the colors remain vivid.
+
+Glossy does not mean metallic, neon, dark, glass-heavy, or overly reflective. The intended appearance is a polished enterprise infographic.
+
+## 5. Color assignment by architecture role
+
+For RDX/ADX architecture diagrams, use this consistent mapping:
+
+| Architecture element | Color |
+|---|---|
+| Main title and API gateway headers | Deep corporate blue |
+| VCAS | Bright blue |
+| VCAS Relay | Light blue with blue border |
+| Middleware / Common Utilities | Bright green |
+| APIM | Corporate blue |
+| RDX Step Up | Clear red |
+| RDX Initiate Action | Bright blue or blue-tinted header |
+| RDX Validate | Clear orange |
+| Issuer / Bank | Orange or light orange |
+| OTP Service | Bright green with clear green border |
+| Database | Neutral white with dark blue outline |
+| ADX | Corporate blue with green success accents |
+| Worker Service | Bright green |
+| Data Lake | Green |
+| Successful response / ACK | Green |
+| Request arrows | Solid dark blue or black |
+| Response arrows | Dashed dark green or dark blue |
+| Error / failure | Red |
+| Shared reusable components | Light green panels with green borders |
+
+Use the role colors consistently throughout a diagram. Do not randomly recolor entities between sections.
+
+## 6. Table and infographic styling
+
+For reusable-component tables and percentage-based comparison infographics:
+
+- Table title: glossy corporate blue gradient with white bold text.
+- Column headers: solid or subtly graded corporate blue with white text.
+- Table body: white or alternating near-white and light-blue rows.
+- Middleware section: light-blue group panel with a blue or green accent.
+- Worker Service section: very light green group panel.
+- Common Utilities section: light-blue group panel with a green accent.
+- Current Reuse progress bars: vivid blue.
+- Additional Reuse progress bars: bright green.
+- Expected Total Reuse progress bars: deep green.
+- Issuer Customization progress bars: clear orange.
+- Use dark navy percentage labels, bold and directly above or beside the bars.
+- Highlight key insights in a pale blue or pale green panel.
+
+Avoid large solid-color body regions. The information must remain the focus.
+
+## 7. Typography
+
+- Use Aptos, Arial, or a clean modern sans-serif.
+- Diagram title: 26–32 pt, bold, white on blue.
+- Section headers: 15–19 pt, bold.
+- Table column headers: 11–14 pt, bold.
+- Main diagram labels: 10–13 pt.
+- Supporting functionality and reuse callouts: 8–10 pt.
+- Footnotes: 8–9 pt.
+- Use dark navy text for most content.
+- Maintain strong contrast and consistent font sizing.
+- Do not make labels so small that they become unreadable when the diagram is displayed on a presentation slide.
+
+## 8. Sequence diagram requirements
+
+For sequence diagrams:
+
+- Use a clean white landscape canvas.
+- Arrange entities in evenly spaced vertical lifelines.
+- Use color-coded entity headers and thin dashed lifelines.
+- Use solid arrows for requests and dashed arrows for responses.
+- Number each business interaction clearly.
+- Separate functional phases using light tinted backgrounds.
+- Put reusable functionality callouts directly inside or below the corresponding entity, not in an unrelated footer.
+- Keep middleware responsibilities visible beside the flows where they apply.
+- Preserve the correct source and destination of every request and response.
+- Avoid crossing arrows wherever possible.
+- Include a small, clear request/response legend.
+- Do not invent interactions or alter the established sequence merely to improve the appearance.
+
+## 9. Reusability and percentage charts
+
+When showing current reuse and future reuse:
+
+- Clearly distinguish **Current Reuse**, **Additional Reuse in the Next Implementation**, and **Expected Total Reuse**.
+- Show the additional percentage separately from the current percentage.
+- Ensure the arithmetic is consistent: expected total reuse must not exceed 100%.
+- Do not assign the same additional percentage to every component without justification.
+- Estimate component-specific increases based on reusable adapters, mappings, configuration, validation rules, common security, logging, database integration, and file-transfer enhancements.
+- Label projections as estimates unless validated by actual implementation evidence.
+- Use blue for current reuse, green for incremental reuse, and deep green for expected total reuse.
+- Never make a progress bar contradict its displayed percentage.
+
+## 10. Final quality gate
+
+Before delivering any diagram, verify:
+
+1. The canvas is bright white or near-white.
+2. Corporate blue, vivid green, clear orange, and selective red are visually distinct.
+3. Teal and purple are not used as dominant colors.
+4. Headers have a polished, glossy gradient.
+5. Text is sharp, readable, and high contrast.
+6. All entity colors are consistent across the diagram.
+7. Arrows, numbering, labels, and component relationships are accurate.
+8. Reusable components are called out at their actual points of use.
+9. Tables, percentages, and labels are not clipped, misspelled, or overlapping.
+10. The final result looks like a polished enterprise PowerPoint infographic.
+
+**Non-negotiable instruction:** Match the crisp, bright corporate-blue / vivid-green / clear-orange glossy style defined above. Do not fall back to generic teal-purple themes, muted palettes, dull colors, or flat unstyled diagrams. Preserve the supplied technical content and improve its visual presentation without inventing facts.
